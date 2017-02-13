@@ -1,0 +1,22 @@
+﻿<Window x:Class="T1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T1"
+        mc:Ignorable="d"
+        Title="OstosLista" Height="350" Width="300">
+    <Grid>
+    <StackPanel x:Name="sp1">
+        <CheckBox x:Name="cbMilk" Content="Milk" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbButter" Content="Butter" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbBeer" Content="Beer" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbChicken" Content="Chicken" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbLemon" Content="Lemon" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Buy" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.485,0.519" Height="25" Click="button_Click">
+        </Button>
+        <TextBlock x:Name="tbOstoslista" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Ostoslista" VerticalAlignment="Top"/>
+            <TextBox x:Name="txbOstolista" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        </StackPanel>
+    </Grid>
+</Window>
