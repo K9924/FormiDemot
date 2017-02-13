@@ -62,7 +62,7 @@ namespace TiedonSidontaDemo2
         }
         private void btnBind_Click3(object sender, RoutedEventArgs e)
         {
-
+            //TOdo kotona
         }
     }
 }
